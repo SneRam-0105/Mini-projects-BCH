@@ -1,0 +1,347 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+body {
+    background-color: white;
+    color: #333;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header {
+    background: white;
+    color: black;
+    display: flex;
+    
+/*     margin-top: 2%; */
+}
+/* .container{
+  max-width: 1500px;
+text-align: center;
+  margin: 0 auto;
+  padding : 5px 5px;
+} */
+
+ul {
+    list-style-type: none;
+    text-align: center;
+    color: black;
+    font-size: x-large;
+    border: 1px solid #e7e7e7;
+  background-color: #e7d5d5;
+
+    
+}
+.active {
+    background-color: #04AA6D;
+  }
+
+li {
+    display:inline;
+    color: black;
+    display: inline-block;
+}
+
+li a {
+     margin: 25px; 
+     color: black;
+    text-decoration: none;
+    display: block;
+}
+
+li a:hover {
+    color: black;
+}
+/* 
+.banner {
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+   background-attachment: fixed;
+    
+} */
+
+.navbar{
+    position:absolute;
+    left: 50%;
+    transform:translate(-50%, 0);
+}
+.navbar h2{
+    text-align: center;
+    padding-bottom: 25px;
+}
+.background_img{
+    
+
+/* max-height: calc(100vh - 120px); */
+/* width: 100%;
+object-fit: contain;
+align-self: flex-start;  */
+
+max-width: 100%;
+/* margin: 0 1rem; */
+object-fit: contain;
+align-self: flex-start;
+
+/* opacity: 0.5; */
+
+
+    
+}
+.centered{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    font-size: 60px;
+    color: black;
+    
+
+    }
+    .contains{
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    .CardA {
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        width: 20%;
+        margin: 40px;
+      }
+      .CardA img{
+        object-fit: cover;
+      }
+      
+      .CardA:hover {
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+      }
+      .CardB {
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        width: 20%;
+        margin: 40px;
+      }
+      
+      .CardB:hover {
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+      }
+
+      .CardC {
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        width: 20%;
+        margin: 40px;
+      }
+      
+      .CardC:hover {
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+      }
+
+      .CardD {
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        width: 20%;
+        margin: 40px;
+      }
+      
+      .CardD:hover {
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+      }
+      
+      
+      .Cards {
+        padding: 2px 16px;
+        font-size: large;
+      }
+
+    /* .projects img{
+        float: left;
+        padding-left: 20px;
+        padding-right: 20px;
+        height: 150px;
+        
+    }
+
+    .projects p{
+        font-size: large;
+        padding-right: 20px;
+    }
+    .projects h2{
+        padding-bottom: 30px;
+        padding-right: 50px; */
+    
+.About:hover{
+    background-color: bisque;
+    
+}
+    .About img{
+        float: right;
+       padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom:20px;
+        height: 150px;
+/*         object-fit: contain; 
+ */      
+    
+    }
+
+    .About p{
+        font-size: large;
+        padding-right: 20px;
+    }
+    .About h2{
+/*         padding-bottom: 30px;
+ */        padding-right: 50px;
+    }
+    .skills{
+        padding-bottom: 20px;
+    }
+
+    .skills img{
+        float: left;
+        padding-left: 20px;
+        padding-right: 20px;
+        height: 120px;
+        
+    }
+
+    .skills p{
+        font-size: large;
+        padding-right: 20px;
+        
+    }
+    .skills h2{
+        padding-bottom: 30px;
+        padding-right: 50px;
+    }
+    section {
+      padding: 25px;
+  }
+
+    footer{
+       
+        background-color: gray;
+        font-size: large;
+        padding: 50px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+       
+        
+        
+
+    }
+    @media(max-width: 500px){
+
+      footer{
+        flex-direction:column
+      }
+    } 
+
+.container h2{
+  text-align: center;
+ 
+
+
+}
+
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    font-size: large;
+    color: black;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+  margin-left: auto;
+   margin-right: auto; /* To make the submit button to center align */
+    width: 30%;
+    
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: grey;
+    padding: 20px;
+    width: 1000px;
+   
+  }
+  
+  .col1 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+    padding-right: 100px;
+  }
+  
+  .col2 {
+    float: right;
+    width: 75%;
+    margin-top: 6px;
+  }
+  
+  /* Clear floats after the columns */
+  .row::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  /* @media screen and (max-width: 600px) {
+    .col1, .col2, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  } */
+/* input[type=submit] {
+    width: 10%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  input[type=text], select {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  } */
